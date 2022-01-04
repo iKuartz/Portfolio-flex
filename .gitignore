@@ -1,5 +1,5 @@
 # Ignoring linter files after initial upload #
 ###################
-#.hintrc
-#.stylelintrc.json
-#linters.yml
+.hintrc
+.stylelintrc.json
+linters.yml
