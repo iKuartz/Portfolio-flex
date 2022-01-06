@@ -5,11 +5,14 @@ html {
 }**/
 
 body {
+  min-width: 375px;
+  min-height: 718px;
 }
 
 header {
-  margin-right: 36px;
-  margin-left: 24px;
+  max-width: 351px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .navigation {
@@ -79,6 +82,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  padding-top: 50px;
 }
 
 .introduction {
@@ -115,7 +119,6 @@ h1 {
 
   position: static;
   width: 327px;
-  height: 146px;
   left: 24px;
   top: 276px;
 
@@ -134,25 +137,39 @@ h1 {
   /* Inside auto layout */
   flex: none;
   flex-grow: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-.social {
-  position: static;
-  width: 170.17px;
-  height: 20px;
-  left: 24px;
-  top: 470px;
+.connect {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+  color: #7f8cff;
 
   /* Inside auto layout */
   flex: none;
-  order: 3;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin-left: 24px;
 }
 
-.social-icon {
+.social {
+  display: flex;
+  align-content: flex-start;
+  padding-inline-start: 0px;
+  margin-inline-start: 24px;
+}
+
+ul li.social-icon {
   display: inline-block;
-  margin: 17;
+  margin-right: 17px;
 }
