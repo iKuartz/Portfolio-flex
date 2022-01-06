@@ -1,3 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/**,
+html {
+  box-sizing: border-box;
+}**/
+
+body {
+}
+
+header {
+  margin-right: 36px;
+  margin-left: 24px;
+}
+
+.navigation {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-container {
+  background-image: url("./images/header-shapes-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.logo {
+  /* My Logo */
+  text-decoration: none;
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+  color: #6070ff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
 h1 {
-  color: aqua;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: bold;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.introduction {
+  /* Primary Text */
+
+  position: static;
+  width: 300px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+
+  /* Header / 2 */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.who-am-i {
+  /* Primary Text */
+
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+
+  /* Body / 2 */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+  color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.social {
+  position: static;
+  width: 170.17px;
+  height: 20px;
+  left: 24px;
+  top: 470px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 17;
 }
