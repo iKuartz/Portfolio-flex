@@ -212,3 +212,103 @@ ul li.social-icon {
   flex-grow: 0;
   margin: 12px 0px;
 }
+
+.work-data {
+  /* Frame 2 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 236px;
+  height: 32px;
+  left: 0px;
+  top: 48px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.company {
+  /* Text */
+
+  position: static;
+  width: 55px;
+  height: 16px;
+  left: 0px;
+  top: 8px;
+
+  /* Caption / 1 - Bolder */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N600 */
+  color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.role {
+  /* Text */
+  position: static;
+  width: 88px;
+  height: 16px;
+  left: 8px;
+  top: 8px;
+
+  /* Caption / 1 - Bolder */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* Neutrals/N100 */
+  color: #7a869a;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.year {
+  position: static;
+  width: 29px;
+  height: 16px;
+  left: 0px;
+  top: 8px;
+
+  /* Caption / 1 - Bolder */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N100 */
+  color: #7a869a;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 10px 0px 14px;
+}
