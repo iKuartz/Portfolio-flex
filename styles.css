@@ -292,12 +292,12 @@ ul li.social-icon {
   margin: 0px 10px 0px 14px;
 }
 
-.description-work {
+.paragraph {
   /* Primary Text */
 
   position: static;
   width: 295px;
-  height: 76px;
+  height: auto;
   left: 0px;
   top: 92px;
 
@@ -351,4 +351,55 @@ ul li.social-icon {
 
 .see-project {
   padding: 10px 0px;
+}
+
+.about {
+  position: absolute;
+  width: 375px;
+  height: 1263px;
+  left: 50px;
+  top: 3769px;
+}
+
+.about-me {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.connect-about {
+  font-family: Poppins, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #7f8cff;
+  flex: none;
+  flex-grow: 0;
+  margin-left: 0px;
+}
+
+.social-about {
+  display: flex;
+  align-content: flex-start;
+  padding-inline-start: 0;
+  margin-inline-start: 0px;
+}
+
+ul li.social-icon-about {
+  display: inline-block;
+  margin-right: 17px;
 }
