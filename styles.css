@@ -2,6 +2,8 @@
 
 body {
   min-width: 375px;
+  font-family: Poppins, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
 }
 
 .intro {
@@ -138,14 +140,13 @@ ul li.social-icon {
 }
 
 .works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  row-gap: 20px;
   padding: 114px 24px;
   position: absolute;
   width: 375px;
   height: 2788px;
-  left: 0px;
+  left: 35px;
   top: 718px;
 }
 
@@ -402,4 +403,24 @@ ul li.social-icon {
 ul li.social-icon-about {
   display: inline-block;
   margin-right: 17px;
+}
+
+ul > li {
+  display: block;
+  padding-bottom: 15px;
+}
+
+ul > li > ul > li {
+  display: block;
+  padding-bottom: 0px;
+}
+
+.outer-list {
+  padding-left: 5px;
+  font-weight: bolder;
+}
+
+.inner-list {
+  padding-left: 0px;
+  font-weight: bolder;
 }
