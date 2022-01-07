@@ -149,11 +149,11 @@ ul li.social-icon {
   top: 718px;
 }
 
-.works1 {
+.work {
   /* Auto layout */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 16px;
   position: static;
   width: 327px;
@@ -208,31 +208,12 @@ ul li.social-icon {
 
   /* Inside auto layout */
   flex: none;
-  order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 0px 0px;
 }
 
 .work-data {
-  /* Frame 2 */
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-
-  position: static;
-  width: 236px;
-  height: 32px;
-  left: 0px;
-  top: 48px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0px 0px;
 }
 
 .company {
@@ -258,7 +239,6 @@ ul li.social-icon {
 
   /* Inside auto layout */
   flex: none;
-  order: 0;
   flex-grow: 0;
   margin: 0px 0px;
 }
@@ -283,7 +263,6 @@ ul li.social-icon {
 
   /* Inside auto layout */
   flex: none;
-  order: 0;
   flex-grow: 0;
   margin: 0px 12px;
 }
@@ -311,4 +290,65 @@ ul li.social-icon {
   flex: none;
   flex-grow: 0;
   margin: 0px 10px 0px 14px;
+}
+
+.description-work {
+  /* Primary Text */
+
+  position: static;
+  width: 295px;
+  height: 76px;
+  left: 0px;
+  top: 92px;
+
+  /* Body / 3 */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* or 160% */
+
+  /* Neutrals/N600 */
+  color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.tags {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.work-tags {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+
+  /* Primary/B50 */
+  background: #ebebff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 8px 0px 0px;
+}
+
+.see-project {
+  padding: 10px 0px;
 }
