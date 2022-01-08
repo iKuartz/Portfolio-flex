@@ -96,10 +96,7 @@ h1 {
   line-height: 24px;
   color: #344563;
   flex: none;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 12, 24;
 }
 
 .connect {
@@ -132,7 +129,7 @@ ul li.social-icon {
   position: absolute;
   width: 375px;
   height: 2788px;
-  left: 0px;
+  left: 0;
   top: 718px;
 }
 
@@ -154,7 +151,7 @@ ul li.social-icon {
   margin: 88px 0;
 }
 
-.work1_pic {
+.work1-pic {
   position: static;
   width: 295px;
   height: 220px;
@@ -162,7 +159,7 @@ ul li.social-icon {
   top: 16px;
   border-radius: 8px;
   flex: none;
-  margin: 12px 0;
+  margin: 12, 0;
 }
 
 .work-name {
@@ -185,7 +182,7 @@ ul li.social-icon {
 }
 
 .work-data-multi {
-  margin: 0 0 0;
+  margin: 0;
 }
 
 .company {
@@ -261,7 +258,7 @@ ul li.social-icon {
   line-height: 24px;
   color: #344563;
   flex: none;
-  margin: 0 0;
+  margin: 0;
 }
 
 .tags {
