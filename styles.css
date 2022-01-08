@@ -96,7 +96,7 @@ h1 {
   line-height: 24px;
   color: #344563;
   flex: none;
-  margin: 12, 24;
+  margin-inline-start: 24px;
 }
 
 .connect {
@@ -286,6 +286,8 @@ ul li.social-icon {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   width: 375px;
   height: 1263px;
