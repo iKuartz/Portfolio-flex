@@ -168,20 +168,24 @@ ul li.social-icon {
 .work-name {
   position: static;
   width: 295px;
-  height: 36px;
+  height: auto;
   left: 0;
   top: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 40px;
   color: #172b4d;
   flex: none;
   margin: 0;
 }
 
-.work-data {
-  margin: 12px 0 0;
+.work-data-tonic {
+  margin: 5 0 0;
+}
+
+.work-data-multi {
+  margin: 0 0 0;
 }
 
 .company {
@@ -197,6 +201,7 @@ ul li.social-icon {
   color: #344563;
   flex: none;
   margin: 0;
+  margin-right: 8px;
 }
 
 .role {
@@ -229,7 +234,7 @@ ul li.social-icon {
   margin: 0 10px 0 14px;
 }
 
-.paragraph {
+.paragraph-t {
   position: static;
   width: 295px;
   height: auto;
@@ -241,7 +246,22 @@ ul li.social-icon {
   line-height: 24px;
   color: #344563;
   flex: none;
-  margin: 12px 0;
+  margin: 5 0;
+}
+
+.paragraph-m {
+  position: static;
+  width: 295px;
+  height: auto;
+  left: 0;
+  top: 92px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  margin: 0 0;
 }
 
 .tags {
