@@ -3,3 +3,4 @@
 .hintrc
 .stylelintrc.json
 linters.yml
+node_modules/**
