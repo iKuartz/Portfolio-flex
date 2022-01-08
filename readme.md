@@ -8,6 +8,8 @@
 
 The header and toolbar of the portfolio we are working on.
 
+07/01/22 - Implemented works and about sections.
+
 ## Built With
 
 - HTML
