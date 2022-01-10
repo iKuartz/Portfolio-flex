@@ -262,12 +262,20 @@ ul li.social-icon {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  flex: none;
-  margin: 8px 0;
+  float: left;
+  margin: 8px 8px;
+}
+
+.html-tags {
+  float: left;
+}
+
+.css-tags {
+  float: left;
+}
+
+.js-tags {
+  float: left;
 }
 
 .work-tags {
@@ -348,4 +356,12 @@ ul > li > ul > li {
 .inner-list {
   padding-left: 0;
   font-weight: bolder;
+}
+
+.contact {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 4710px;
 }
