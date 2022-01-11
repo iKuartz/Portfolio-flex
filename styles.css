@@ -351,6 +351,8 @@ ul > li > ul > li {
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   background-color: #6070ff;
   background-image: url(./images/contact-bg.svg);
   background-repeat: no-repeat;
