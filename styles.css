@@ -356,13 +356,13 @@ ul > li > ul > li {
   flex-direction: column;
   align-items: center;
   background-color: #6070ff;
-  background-image: url(./images/contact-bg.svg);
+  background-image: url("./images/contact-bg.svg");
   background-repeat: no-repeat;
   background-position: right;
   position: absolute;
   width: 375px;
   height: 730px;
-  left: 0px;
+  left: 0;
   top: 4710px;
 }
 
@@ -397,12 +397,12 @@ button {
   border-radius: 8px;
   background-color: #fff;
   border: 1px solid #cfd8dc;
-  padding: 0px 15px;
+  padding: 0 15px;
   margin: 20px 0;
 }
 
 .small-inputs::placeholder {
-  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-family: Poppins, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -416,7 +416,7 @@ button {
   border-radius: 8px;
   background-color: #fff;
   border: 1px solid #cfd8dc;
-  padding: 0px 15px;
+  padding: 0 15px;
   margin: 15px 0;
 }
 
@@ -429,7 +429,7 @@ button {
 }
 
 .big-input::placeholder {
-  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-family: Poppins, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -445,7 +445,7 @@ button {
   padding: 12px 16px;
   background-color: #fff;
   border: 1px solid #cfd8dc;
-  font-family: Poppins;
+  font-family: Poppins, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
