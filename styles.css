@@ -349,3 +349,15 @@ ul > li > ul > li {
   padding-left: 0;
   font-weight: bolder;
 }
+
+.contact {
+  background-color: #6070ff;
+  background-image: url(./images/contact-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 4710px;
+}
